@@ -1,0 +1,23 @@
+* {
+  color: white;
+  box-sizing: border-box;
+  font-family: "Fira Sans", "sans-serif";
+}
+body {
+  background-color: #282828;
+  text-align: center;
+  align-items: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+button {
+  background: linear-gradient(90deg, #1a1a1a, #767676);
+  font-size: 1.5rem;
+  border-radius: 0.25em;
+  border: solid 0.125em #1a1a1a;
+  &:hover {
+    border-color: #6969ec;
+  }
+}

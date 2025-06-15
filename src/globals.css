@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Geist";
+  --font-mono: "Geist Mono";
+  
+  color-scheme: light dark;
+  @apply bg-neutral-50 dark:bg-neutral-950 font-[family-name:var(--font-sans)];
+}
